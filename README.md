@@ -70,7 +70,7 @@ Follow the steps below to set up the project locally:
 ### **1. Clone the Repository**  
 bash
 git clone https://github.com/your-username/real-time-log-monitoring.git
-cd real-time-log-monitoring>```
+cd real-time-log-monitoring
 
 2. Install Prerequisites
 Make sure you have the following installed on your system:
