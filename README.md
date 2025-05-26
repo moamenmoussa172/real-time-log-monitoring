@@ -31,7 +31,7 @@ The entire pipeline is **containerized using Docker**, ensuring portability and 
    - A Python script that monitors PostgreSQL for `ERROR` logs and triggers **alerts** (console or file-based) if the number of errors exceeds a threshold (e.g., 10 errors in 5 minutes).  
 
 5️⃣ **Airflow Orchestration**  
-   - Built an Airflow **DAG** to automate:  
+     - Built an Airflow **DAG** to automate:  
      - Log generation using the producer.  
      - Log processing using the PySpark application.  
      - Real-time alert monitoring.
@@ -69,8 +69,8 @@ Follow the steps below to set up the project locally:
 
 ### **1. Clone the Repository**  
 bash
-git clone https://github.com/your-username/real-time-log-monitoring.git
-cd real-time-log-monitoring
+```git clone https://github.com/your-username/real-time-log-monitoring.git```
+```cd real-time-log-monitoring```
 
 2. Install Prerequisites
 Make sure you have the following installed on your system:
