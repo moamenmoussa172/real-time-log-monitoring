@@ -67,7 +67,7 @@ The entire pipeline is **containerized using Docker**, ensuring portability and 
 
 Follow the steps below to set up the project locally:
 
-### **1. Clone the Repository**  
+1. Clone the Repository**  
 bash
 ```git clone https://github.com/your-username/real-time-log-monitoring.git```
 ```cd real-time-log-monitoring```
