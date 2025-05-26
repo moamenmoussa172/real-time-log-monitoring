@@ -78,16 +78,16 @@ Make sure you have the following installed on your system:
 Docker
 Docker Compose
 3. Start the Pipeline
-Run the following command to start all services using Docker Compose:
-docker-compose up -d
+   Run the following command to start all services using Docker Compose:
+   docker-compose up -d
 
-This will spin up the following services:
+   This will spin up the following services:
 
-   Kafka
-   Zookeeper
-   PostgreSQL
-   Airflow
-   PySpark
+      Kafka
+      Zookeeper
+      PostgreSQL
+      Airflow
+      PySpark
 
 4. Access Services
    Airflow Web UI: http://localhost:8080 (default login: airflow / airflow)
