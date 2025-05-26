@@ -79,7 +79,7 @@ Docker
 Docker Compose
 3. Start the Pipeline
    Run the following command to start all services using Docker Compose:
-   docker-compose up -d
+   ```docker-compose up -d```
 
    This will spin up the following services:
 
