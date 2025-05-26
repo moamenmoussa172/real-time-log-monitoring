@@ -58,21 +58,5 @@ query = logs.writeStream \
     .outputMode("append") \
     .start()
 
-# 4. Run Streaming for 10 Seconds and Stop
-try:
-    print("Running streaming queries for 10 seconds...")
-    time.sleep(10)  # Allow the queries to process for 10 seconds
-
-    # Stop the streaming queries
-    query.stop()
-    print("Stopped streaming queries after 10 seconds.")
-
-except Exception as e:
-    print(f"Error occurred: {e}")
-
-finally:
-    # Ensure all Spark resources are released
-    for active_query in spark.streams.active:
-        active_query.stop()
-    spark.stop()
-    print("Spark session stopped.")
+# Keep the Stream Running
+spark.streams.awaitAnyTermination()
